@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: black;
+    
+}
+
+nav{
+    font-family: "Oswald", sans-serif; 
+}
+
+h4 {
+    font-family: "Oswald", sans-serif; 
+}
+h3 {
+    font-family: "Oswald", sans-serif; 
+}
+
+
+.navbar {
+    background-color: #e51b20;
+    color: aliceblue;
+
+}
+.nav-link {
+    color: aliceblue;
+    text-size-adjust: 40px;
+}
+
+.nav-historias {
+    color: black;
+    text-decoration:underline;
+}
+
+.nav-index {
+    color: black;
+    text-decoration:underline;
+    
+}
+
+.nav-photobook {
+    color: black;
+    text-decoration:underline;
+}
+
+.nav-video {
+    color: black;
+    text-decoration:underline;
+}
+
+.nav-quienes-somos {
+    color: black;
+    text-decoration:underline;
+}
+
+
+footer {
+    background-color: #670f11;
+    height: 30px;
+}
+
+.leer-mas {
+    background-color: #e51b20;
+}
+
+.leer-mas:hover {
+    background-color: black;
+}
+
+.card-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    
+}
+
+.p-historias {
+    color:aliceblue
+      
+}
+
+.slider-historias:hover{
+    filter: sepia(100%);
+    transition:1s;
+}
+
+.card:hover {
+   background-color: #e51b20;
+    color: black;
+    transition-duration: 1s;
+    
+    
+}
+a {
+    text-decoration: none;
+}
+
+
+.kodfun-galeri {
+    display: flex;
+    height: 370PX;
+    gap: 1rem;
+    
+    
+    
+}
+.kodfun-galeri > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+    
+    
+}
+
+.kodfun-galeri > div:hover {
+    flex: 6;
+    border-radius: 1rem;
+   
+}
+
+.metadatos {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    
+}
+
